@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quest Details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/questTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Walk 500 m"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/questReward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+100 XP"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/startQuestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quest" />
+
+</LinearLayout>
